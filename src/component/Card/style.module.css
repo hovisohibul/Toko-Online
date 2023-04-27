@@ -1,0 +1,48 @@
+.main-card{
+    box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 40%;
+}
+.card-header{
+    display: flex;
+    padding: 1%;
+    border-radius: 10px 10px 0 0;
+    justify-content: center;
+    background-color: #152A46;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+.header-image > img{
+    width: 100px;
+}
+.header-text{
+    margin-left: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-topic{
+    color:  #FFCD29;
+}
+.table-content{
+    border-spacing: 10px;
+}
+.table-head{
+    color: #666;
+}
+.before-diskon{
+    text-decoration: line-through #000;
+    font-size: 12px;
+    color: #666;
+}
+.after-diskon{
+    font-size: 20px;
+    color: #06d306;
+    font-weight: bold;
+}

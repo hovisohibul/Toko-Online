@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    padding: 3.0rem;
+    gap: 50px;
+}
+.footer-address{
+    width: 50%;
+}
+.footer-logo > img{
+    width: 190px;
+}
+.footer-location{
+    padding: 2%;
+    width: 80%;
+}
+.footer-location > p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+.footer-program, .footer-bidang, .footer-tentang > p{
+    font-weight: bold;
+    color: #666;
+}
+.footer-copy > p{
+    color: #666;
+    font-weight: bold;
+}
