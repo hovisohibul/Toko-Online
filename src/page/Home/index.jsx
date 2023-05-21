@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../../component/Header'
 import Card from '../../component/Card'
 import Footer from '../../component/Footer'
 import style from './style.module.css'
+// import { httpService } from '../../utils/serviceApi'
 
 function Home() {
+
     return (
         <>
             <Header />
@@ -12,13 +14,10 @@ function Home() {
                 <div className={style['container']}>
                     <div className={style['content']}>
                         <Card/>
-                    </div>
-                    <div className={style['content']}>
-                        <Card/>
-                    </div>
+                    </div>                
                 </div>
             </main>
-            <Footer height={'100vh'} width={'100%'}/>
+            <Footer height={'100%'} width={'100%'}/>
         </>
     )
 }

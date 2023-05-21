@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 0 #000;
+    margin-top: 4%;
+}
+.container > img{
+    width: 70px;
+}
+.bank-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    justify-content: space-between;
+}
+.bank-input > h6{
+    font-weight: bold;
+}
+.bank-input > input[type=radio]{
+    transform: scale(110%);
+}

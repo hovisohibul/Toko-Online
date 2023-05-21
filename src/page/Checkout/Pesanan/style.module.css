@@ -1,0 +1,28 @@
+.container{
+    max-width: 100%;
+    margin: 0;
+    background-color: #fff;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 3px 4px 8px 0 #000;
+    width: 45%;
+    height: fit-content;
+}
+.transfer, .virtual{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.transfer-manual, .virtual-account{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.manual-text > p, .virtual-text > p{
+    font-size: 12px;
+}
+.manual-icon, .virtual-icon{
+    display: flex;
+    align-items: center;
+}

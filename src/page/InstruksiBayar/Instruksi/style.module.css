@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+}
+.detail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.bootcamp-type{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.title-bootcamp{
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+.title > tbody tr th {
+    font-size: 12px;
+}
+.title > tbody tr td{
+    font-size: 12px;
+}
+.image-bootcamp{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #0b2b94ef;
+    padding: 1%;
+}
+.bank-option{
+    display: flex;
+    align-items: center;
+}
+.bank-option > img{
+    width: 70px;
+}
+.rekening{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.copy-paste{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+.price{
+    font-weight: bold;
+    font-size: 22px;
+}
+.instruksi{
+    width: 100%;
+}
+.navbar-bank{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #696969;
+}
+.navbar-bank > li{
+    display: inline;
+    margin: 2.5%;
+}
+.navbar-bank > li input{
+    color: #000;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}

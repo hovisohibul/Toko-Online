@@ -1,0 +1,22 @@
+.container{
+    padding: 5%;    
+}
+.icon{
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.arrow{
+    cursor: pointer;
+}
+.icon > span{
+    color: aqua;
+}
+.content{
+    margin-top: 5%;
+    display: flex;
+    background-color: #EFF4FA;
+    justify-content: space-between;
+    gap: 10px;
+}

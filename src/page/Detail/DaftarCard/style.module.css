@@ -1,0 +1,42 @@
+.container{
+    width: 35%;
+    padding: 2%;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.card-header{
+    margin-bottom: 2%;
+    border-bottom: 1px solid;
+}
+.materi, .fasilitas{
+    padding: 3%;
+    cursor: pointer;
+}
+.materi > h5, .fasilitas > h5{
+    margin-left: 10%;
+}
+.materi:hover, .fasilitas:hover{
+    background-color: rgba(157, 193, 247, 0.712);
+    color: rgb(0, 140, 255);
+    border-right: 4px solid;
+}
+.card-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-body > p{
+    font-size: 19px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.card-body > .normal{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+}

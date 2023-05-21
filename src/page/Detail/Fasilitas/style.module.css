@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 2%;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #fff;
+}
+.container > h3{
+    color: #032da3;
+    font-weight: bold
+}
+.fasilitas-content{
+    padding: 2%;
+}

@@ -1,14 +1,22 @@
 import React from 'react'
 import style from './style.module.css'
 import logo from './assets/logo.png'
-import Button from '../Button'
+import { Button } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 
-function Navbar() {
+function Navbar(props) {
+
+    const navigate = useNavigate()
+
+    const goToHome = () => {
+        navigate('/')
+    }
+
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{backgroundColor: props.color}}>
                 <div className="container-fluid justify-content-around">
-                    <a className="navbar-brand" href="#"><img src={logo} alt="" className={style['logo-brand']}/></a>
+                    <a className="navbar-brand"><img src={logo} alt="" className={style['logo-brand']} onClick={() => goToHome()}/></a>
                     {/* <button className="navbar-toggler collapse navbar-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button> */}
@@ -40,9 +48,11 @@ function Navbar() {
                             <li className="nav-item ms-4">
                                 <a className="nav-link text-light" href="#">Tentang</a>
                             </li>
-                            {/* <li className="nav-item ms-4">
-                                <Button class={style['daftar']}>Masuk/Daftar</Button>
-                            </li> */}
+                            <li className="nav-item ms-4">
+                                <Button variant='danger'>
+                                    Masuk/Daftar
+                                </Button>
+                            </li>
                         </ul>
                     </div>
                 </div>
